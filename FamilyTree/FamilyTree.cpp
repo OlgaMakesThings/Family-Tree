@@ -84,4 +84,5 @@ int main()
     a.SetBirthdate(birth);
     a.SetDeathdate(death);
     std::cout << a.GetInfo() << std::endl;
+    //a.AddToFile();
 }

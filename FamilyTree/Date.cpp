@@ -37,6 +37,9 @@ std::string Date::GetDate() {
 	year_str = std::to_string(year);
 	return day_str + "." + month_str + "." + year_str;
 }
+int Date::GetDay() { return day; }
+int Date::GetMonth() { return month; }
+int Date::GetYear() { return year; }
 
 int Date::CheckDate() {
 	if (year == 0 && month == 0 && day == 0) {

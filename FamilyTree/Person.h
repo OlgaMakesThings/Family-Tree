@@ -6,6 +6,7 @@ class Person {
 	std::string name;
 	Date birth;
 	Date death;
+	//int id;
 public:
 	Person() { name = ""; }
 	Person(std::string _name, Date _birth, Date _death);
@@ -14,5 +15,6 @@ public:
 	void SetDeathdate(Date _death);
 	std::string GetName();
 	std::string GetInfo();
+	//void AddToFile();
 };
 

@@ -13,5 +13,8 @@ public:
 	void SetYear(int _year);
 	std::string GetDate();
 	int CheckDate();
+	int GetDay();
+	int GetMonth();
+	int GetYear();
 };
 
